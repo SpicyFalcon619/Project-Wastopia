@@ -78,7 +78,7 @@ export default function WastopiaPage() {
         </Link>
         <div style={{ display: 'flex', gap: '12px', alignItems: 'center', marginLeft: 'auto' }}>
           {/* This now links to the local dev URL of your main portfolio */}
-          <a href="http://localhost:3000" className="pill magnetic">← Back to Portfolio</a>
+          <a href="https://spicyfalcon-portfolio.vercel.app/" className="pill magnetic">← Back to Portfolio</a>
           <button className="theme-btn magnetic" id="themeToggle" title="Toggle theme">🌓</button>
         </div>
       </header>
@@ -130,7 +130,7 @@ export default function WastopiaPage() {
         <section className="card reveal">
           <h2>Recognition</h2>
           <p>
-            <strong>Best Emerging Team — Blockchain Category</strong><br />
+            <strong>Best Emerging Team - Blockchain Category</strong><br />
             UIU CSE FEST 2025
           </p>
         </section>
