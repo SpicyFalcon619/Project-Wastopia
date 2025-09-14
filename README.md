@@ -7,7 +7,7 @@ Built with **Next.js, TypeScript, and Tailwind CSS** for scalability and modern 
 
 ## 🚀 Live Demo
 
-👉 [wastopia.vercel.app](https://project-wastopia.vercel.app)
+👉 [project-wastopia.vercel.app](https://project-wastopia.vercel.app)
 
 ---
 
