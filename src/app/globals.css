@@ -165,8 +165,13 @@ nav a{color:var(--muted);text-decoration:none;font-weight:500;padding:10px 16px;
 nav a:hover{color:inherit;background:var(--glass);backdrop-filter:blur(12px);transform:translateY(-1px)}
 .burger{display:none;padding:10px;border-radius:12px;background:var(--glass-2);cursor:pointer;backdrop-filter:blur(8px)}
 
+/* Main content offset for fixed header */
+main {
+  padding-top: 100px;
+}
+
 /* Hero */
-.hero{display:grid;grid-template-columns:1fr 340px;gap:32px;align-items:center;margin-top:120px}
+.hero{display:grid;grid-template-columns:1fr 340px;gap:32px;align-items:center;margin-top:24px}
 .hi{font-size:15px;color:var(--muted);text-transform:uppercase;letter-spacing:2px;font-weight:500;margin-bottom:12px}
 h1 .accent{background:linear-gradient(135deg,var(--accent1),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent;font-weight:700}
 p.lead{margin-top:12px;color:var(--muted);max-width:60ch}
