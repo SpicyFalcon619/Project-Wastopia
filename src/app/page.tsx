@@ -126,11 +126,6 @@ export default function WastopiaPage() {
         }
       })();
       
-      // Add floating animation to H1
-      const title = document.querySelector('h1');
-      if (title) {
-        title.style.animation = 'float 8s ease-in-out infinite';
-      }
     `;
 
     document.body.appendChild(script);
